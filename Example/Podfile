@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KeyboardViewController_Example' do
+  pod 'KeyboardViewController', :path => '../'
+
+  target 'KeyboardViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

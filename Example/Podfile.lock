@@ -1,0 +1,16 @@
+PODS:
+  - KeyboardViewController (0.1.0)
+
+DEPENDENCIES:
+  - KeyboardViewController (from `../`)
+
+EXTERNAL SOURCES:
+  KeyboardViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KeyboardViewController: abb2cd7709ba28e36cd8ee1e7b3184176d5ac250
+
+PODFILE CHECKSUM: 6ab5715ab223cb106436373d9a9b12ea26a7e3e6
+
+COCOAPODS: 1.2.1
