@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0933F85EC0ADBF40FF4545BA /* Pods-KeyboardViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeyboardViewController_Example/Pods-KeyboardViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		561E0FA345B9C7E3E7554E76 /* Pods-KeyboardViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeyboardViewController_Tests/Pods-KeyboardViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5E2B9F2A55CD9E0447BA7950 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5E2B9F2A55CD9E0447BA7950 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KeyboardViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		7A633AFAE3A7E67D756C5005 /* Pods_KeyboardViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyboardViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A28CD44A7D66CC3369A1E84 /* Pods_KeyboardViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyboardViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D08443B0A946360AEE374D2 /* Pods-KeyboardViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeyboardViewController_Tests/Pods-KeyboardViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C0F9145571E90356003E1975 /* KeyboardViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KeyboardViewController.podspec; path = ../KeyboardViewController.podspec; sourceTree = "<group>"; };
+		C0F9145571E90356003E1975 /* KeyboardViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KeyboardViewController.podspec; path = ../KeyboardViewController.podspec; sourceTree = "<group>"; };
 		CD74D09E9F811F05B3268609 /* Pods-KeyboardViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeyboardViewController_Example/Pods-KeyboardViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E12B1EF53BE9C0D0BE3E96E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E12B1EF53BE9C0D0BE3E96E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +216,7 @@
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -496,6 +497,7 @@
 			baseConfigurationReference = CD74D09E9F811F05B3268609 /* Pods-KeyboardViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KeyboardViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +512,7 @@
 			baseConfigurationReference = 0933F85EC0ADBF40FF4545BA /* Pods-KeyboardViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KeyboardViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
